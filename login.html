@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Ipia Roberth | Developer</title>
+    <link rel="stylesheet" href="login.css">
+    
+</head>
+<body>
+    <div class="login-container">
+        <form action="Login_contact">
+            <h1>Contact Us</h1>
+            
+            <div class="form-group">
+                <input type="text" name="FirstName" id="FirstName" placeholder="First Name" required>
+                <input type="text" name="MiddleName" id="MiddleName" placeholder="Middle Name">
+            </div>
+            
+            <div class="form-group">
+                <input type="text" name="FirstSurname" id="FirstSurname" placeholder="First Surname" required>
+                <input type="text" name="SecondSurname" id="SecondSurname" placeholder="Second Surname">
+            </div>
+            
+            <div class="form-group">
+                <input type="email" name="Email" id="Email" placeholder="Email" required>
+                <input type="tel" name="NumberPhone" id="NumberPhone" placeholder="Mobile Phone Number" required>
+            </div>
+            
+            <div class="form-group">
+                <select name="Project" id="Project">
+                    <option value="" disabled selected>Select Project Type</option>
+                    <option value="Web_development">Web Development</option>
+                    <option value="Mobile_app_development">Mobile App Development</option>
+                    <option value="Machine_learning">Machine Learning</option>
+                    <option value="Artificial_intelligence">Artificial Intelligence</option>
+                    <option value="Data_mining">Data Mining</option>
+                </select>
+            </div>
+            
+            <textarea name="Message" id="Message" cols="40" rows="5" placeholder="Message"></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+/* Agregamos estilo al cuerpo de la página*/ 
+    body{
+      background-color:black;
+            font-family: Arial, sans-serif;
+            margin: 10px;
+            padding: 40px;
+            background-image: url(assets/fondo_Login.jpg);
+        }
+    /*h1 y h2 le damos un estilo de color blanco y los centramos*/
+    h1{
+        color: white;
+        text-align: center;
+    }
+    h2{
+        color: white;
+        text-align: center;
+    }
+    p{
+        color: white;
+        text-align: center;
+    }
+    .imagen-circular{
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;   
+    }
+    .button{
+        background-color:white;
+        border-radius: 20;
+        color: black;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration:none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 3px 1px;
+        cursor: pointer;
+        border-radius: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .Red-Social img {
+        width: 30px; /* Tamaño del icono */
+        height: 30px; /* Tamaño del icono */
+        margin: 5px; /* Espacio entre iconos */
+    }
+    
+    .Red-Social {
+        text-align: center; /* Centra los iconos */
+    }
+
+

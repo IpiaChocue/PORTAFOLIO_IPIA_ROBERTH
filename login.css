@@ -1,0 +1,59 @@
+body {
+    background-color: white;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100vh;
+    margin: 0px;
+    background-image: url(assets/fondo_Login2.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+.login-container {
+    background-color:rgba(5, 5, 5, 0);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+    width: center;
+    text-align:center;
+    margin:180px;
+    
+}
+.login-container h1 {
+    margin-bottom: 20px;
+}
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.form-group input {
+    width: 100%;
+}
+.login-container input, .login-container select, .login-container textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.login-container textarea {
+    resize: none;
+}
+.login-container button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.login-container button:hover {
+    background-color: #0056b3;
+}
